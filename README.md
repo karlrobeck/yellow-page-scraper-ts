@@ -13,6 +13,12 @@ you need to have .env file in the root directory with the following content:
 DATABASE_URL=db.sqlite # this will use bun:sqlite
 ```
 
+run migrations:
+
+```bash
+bun migrate:latest
+```
+
 To run:
 
 ```bash
